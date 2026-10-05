@@ -141,6 +141,23 @@ export function PortalPage() {
           © China Biotech Group — informational publication. Separate hosts are not incorporated by
           reference.
         </p>
+        <nav
+          aria-label="Legal pages"
+          className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-xs text-muted"
+        >
+          <a
+            href="/privacy-policy"
+            className="rounded-sm py-2 underline decoration-mark-blue/70 underline-offset-4 transition-colors hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-fg"
+          >
+            Privacy Policy
+          </a>
+          <a
+            href="/terms-of-service"
+            className="rounded-sm py-2 underline decoration-mark-blue/70 underline-offset-4 transition-colors hover:text-fg focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-fg"
+          >
+            Terms of Service
+          </a>
+        </nav>
       </footer>
     </main>
   );
